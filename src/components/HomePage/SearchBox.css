@@ -1,0 +1,84 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-box {
+    flex-grow: 1;
+    background-color: white;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid white;
+    max-width: 1350px;
+    width: 100%;
+    padding: 80px;
+    height: 500px;
+    box-sizing: border-box; 
+    margin-bottom: 100px;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+  }
+  
+  .select-container {
+    margin: 0 10px; 
+  }
+  
+  .custom-select {
+    width: 200%;
+    max-width: 1000px;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  .custom-button {
+    width: 100%;
+    max-width: 130px;
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 10px; 
+  }
+  
+  .related-items {
+    margin-top: 20px;
+  }
+  
+  .related-items-title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .related-items-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .related-item {
+    flex-basis: calc(20% - 20px); 
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .related-item-icon {
+    width: 45px;
+    height: 52px;
+    margin: 2px;
+  }
+  
+  

@@ -1,0 +1,38 @@
+.specialisation-container {
+    background-color: #E7F0FF;
+    padding: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1B3C74;
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.specialisation-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.view-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}

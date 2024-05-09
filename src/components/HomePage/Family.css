@@ -1,0 +1,42 @@
+.family-container {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    background-color: #E7F0FF;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .text-container {
+    padding-top: 11px;
+  }
+  
+  .health-care {
+    color: #2AA7FF;
+    font-size: lg;
+    font-weight: bold;
+  }
+  
+  .family-heading {
+    font-size: 5xl;
+    color: #1B3C74;
+    font-weight: bold;
+    margin-top: 4px;
+  }
+  
+  .care-text {
+    color: #77829D;
+    font-size: lg;
+    margin-bottom: 4px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .family-image {
+    max-width: 100%;
+    height: auto;
+  }
+  

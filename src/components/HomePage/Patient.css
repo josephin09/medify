@@ -1,0 +1,61 @@
+.patient-container {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    background-color: #E7F0FF;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .patient-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content-container {
+    padding-top: 11px;
+  }
+  
+  .helping-patients {
+    color: #2AA7FF;
+    font-weight: bold;
+  }
+  
+  .patient-care {
+    font-size: 3xl;
+    font-weight: bold;
+    margin-top: 4px;
+  }
+  
+  .care-highlight {
+    color: #2AA7FF;
+  }
+  
+  .care-text {
+    color: #77829D;
+    margin-bottom: 4px;
+  }
+  
+  .care-list {
+    color: #1B3C74;
+    font-weight: medium;
+    font-size: lg;
+    padding-top: 4px;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tick-icon {
+    width: 24px;
+    height: auto;
+    margin-right: 8px;
+  }
+  
